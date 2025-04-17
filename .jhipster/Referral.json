@@ -1,0 +1,46 @@
+{
+  "annotations": {
+    "changelogDate": "20250416204152"
+  },
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "job_id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "referrer_id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Referral",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "id": false,
+      "otherEntityField": "id",
+      "otherEntityName": "application",
+      "otherEntityRelationshipName": "referral",
+      "relationshipName": "application",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "id": false,
+      "otherEntityField": "id",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "referral",
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

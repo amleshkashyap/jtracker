@@ -1,0 +1,35 @@
+{
+  "annotations": {
+    "changelogDate": "20250416203116"
+  },
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "employees",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "glassdoor",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "headquarter",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "domains",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Company",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

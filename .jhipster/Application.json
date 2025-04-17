@@ -1,0 +1,32 @@
+{
+  "annotations": {
+    "changelogDate": "20250416202425"
+  },
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "job_id",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalTime"
+    },
+    {
+      "fieldName": "referral_id",
+      "fieldType": "Integer",
+      "fieldValidateRules": []
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Application",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

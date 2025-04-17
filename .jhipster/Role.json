@@ -1,0 +1,17 @@
+{
+  "annotations": {
+    "changelogDate": "20250416202947"
+  },
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Role",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "no"
+}

@@ -1,0 +1,47 @@
+{
+  "annotations": {
+    "changelogDate": "20250416202843"
+  },
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "company_id",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "job_id",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "url",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "role_id",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "min_experience",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "languages",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Job",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}
